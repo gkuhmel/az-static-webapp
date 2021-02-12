@@ -89,6 +89,7 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
  -    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
         <script>// Bind to events
+        console.log(user);
         if (window.netlifyIdentity){
             netlifyIdentity.on("init", user => console.log(user));
             netlifyIdentity.on("open", () => console.log("Widget opened"));
